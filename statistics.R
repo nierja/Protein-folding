@@ -1,4 +1,6 @@
 #!/usr/bin/env Rscript
+# given output "angles.csv" and "pdb_angles", performs
+# Kolmogorov–Smirnov test
 args = commandArgs(trailingOnly=TRUE)
 
 library(cramer)
