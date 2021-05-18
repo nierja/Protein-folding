@@ -21,11 +21,3 @@ print(ks.test(bond_pdb, bond_experimental))
 print(ks.test(torsion_pdb, torsion_experimental))
 #sink()
 
-# perform Cramére test and store the output
-#sink("output_bond.txt", append = TRUE)
-#print(cramer.test(bond_pdb, bond_experimental))
-#sink()
-#sink("output_torsion.txt", append = TRUE)
-#print(cramer.test(torsion_pdb, torsion_experimental))
-#sink()
-
